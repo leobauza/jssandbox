@@ -45,3 +45,4 @@ var fancyToilet = new FancyToilet({
 	brand: "Sloan"
 	,capacity: 100
 });
+
