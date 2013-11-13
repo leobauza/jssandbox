@@ -109,7 +109,7 @@ var obj = {
 	},
 	prepareRequest: function() {
 		var url = "http://example.com";
-		makeRequest(url, obj.loadData.bind(obj));
+		makeRequest(url, obj.loadData.bind(obj)); //test change
 	}
 }
 
