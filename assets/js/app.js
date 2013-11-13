@@ -107,7 +107,7 @@ var obj = {
 		var sum = this.someValue + data;
 		console.log(sum);
 	},
-	prepareRequest: function() {
+	prepareRequest: function() { //master change
 		var url = "http://example.com";
 		makeRequest(url, obj.loadData.bind(obj));
 	}
